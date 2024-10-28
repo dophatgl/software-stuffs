@@ -10,6 +10,7 @@ Imagine a User class that handles user data. According to SRP, it should not be 
 	•	A User class that contains user-related attributes and methods.
 	•	A UserRepository class that handles database operations for user data.
 
+'''
 class User:
     def __init__(self, name, email):
         self.name = name
@@ -19,6 +20,7 @@ class UserRepository:
     def save(self, user: User):
         # Logic to save the user to the database
         pass
+'''
 
 2. Open/Closed Principle (OCP)
 
